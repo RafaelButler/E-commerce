@@ -1,0 +1,16 @@
+.slick-list{
+    width: 1110px;
+}
+
+.slick-next:before, .slick-prev:before{
+    color: #8d6e5c;
+}
+
+.slick-next {
+    right: -20px;
+}
+
+.slick-arrow:hover{
+    
+    color: #fff;
+}

@@ -40,3 +40,4 @@ export const carroucelInfo = [
         description: "Cadeira estofada, com assento confortavel"
     }
 ]
+

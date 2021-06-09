@@ -1,4 +1,4 @@
--># A ecommerce page<-
+# A ecommerce page
 
 ![Home](src/image/page.png)
 

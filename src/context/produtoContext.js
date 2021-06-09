@@ -21,12 +21,13 @@ function ProductProvider(props) {
 
     return(
         <ProdutoContext.Provider value={{
-            handleInfos, 
-            info, 
-            singleProduct,
-            quatity,
-            products
-        }}>
+                handleInfos, 
+                info, 
+                singleProduct,
+                quatity,
+                products
+            }}
+        >
             {props.children}
         </ProdutoContext.Provider>
     );

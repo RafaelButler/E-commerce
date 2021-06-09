@@ -16,6 +16,11 @@ export const SectionContact = styled(Section)`
 
 export const SubmitButton = styled(FinalizarBotao)`
     width: 87%;
+
+    &:hover{
+        transition: all 0.2s;
+        background: #71594b;
+    }
 `;
 
 export const Input = styled.input`

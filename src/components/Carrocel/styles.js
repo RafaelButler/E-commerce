@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { FiHeart } from 'react-icons/fi';
+import { motion } from 'framer-motion';
 
 export const Container = styled.div`
   
@@ -36,7 +37,7 @@ export const Description = styled.div`
     margin-bottom: 7px;
 `;
 
-export const Button = styled.button`
+export const Button = styled(motion.button)`
     padding: 10px 35px;
     background: var(--primary);
     color: #fff;
@@ -48,6 +49,7 @@ export const Button = styled.button`
 
     &:hover{
         transition: all 0.2;
+        background: '#6d5547';
     }
 `;
 

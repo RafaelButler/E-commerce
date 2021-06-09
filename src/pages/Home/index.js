@@ -24,7 +24,7 @@ export function Home() {
     <Container>
       <SectionSlider />
 
-      <CaroucelSection>
+      <CaroucelSection id="carroucelSection" >
         <Slider {...settings}>
           {info.map(caroucel => (
 

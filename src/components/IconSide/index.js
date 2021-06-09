@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React, { useContext }  from 'react';
 import { ProdutoContext } from '../../context/produtoContext';
 import { Container, Cart } from './styles';
@@ -9,8 +10,13 @@ function IconSide() {
   return(
       <Container to="/cart">
           <span>Compre</span>
-          <Cart />
-          <span>{quatity}</span>
+          <motion.span
+            transition={{ yoyo: Infinity, duration: 0.3 }}
+            animate={{ y: ['20%', '-20%']}}
+          >
+            <Cart />
+            <span style={{ fontSize: '10px', position: 'absolute' }}>{quatity}</span>
+          </motion.span>
       </Container>
   );
 }

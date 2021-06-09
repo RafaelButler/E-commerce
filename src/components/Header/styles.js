@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { BiCartAlt } from 'react-icons/bi';
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 
 export const Container = styled.div`
   background-color: #ffffff;
@@ -38,7 +39,7 @@ export const Logo = styled.h1`
   font-weight: 400;
 `;
 
-export const LogoContrast = styled.span`
+export const LogoContrast = styled(motion.span)`
   color: var(--primary);
 `;
 

@@ -17,4 +17,5 @@ export const Container = styled(Link)`
 `;
 
 export const Cart = styled(BiCartAlt)`
+    font-size: 20px;
 `;

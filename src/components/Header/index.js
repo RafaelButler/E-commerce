@@ -19,7 +19,7 @@ function Header() {
   return(
     <Container>
       <Wrapper>
-          <Logo>Furni<LogoContrast>ture</LogoContrast></Logo>
+          <Logo>Furni<LogoContrast initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>ture</LogoContrast></Logo>
 
           <nav>
               <ListaMenu>

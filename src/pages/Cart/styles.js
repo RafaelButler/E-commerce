@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -45,7 +46,7 @@ export const ProductInfoCart = styled.ul`
     }
 `;
 
-export const InfosBoxes = styled.p`
+export const InfosBoxes = styled(motion.p)`
     display: flex;
     font-weight: bold;
     justify-content: space-between;

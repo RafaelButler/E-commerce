@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React, { useContext, useState } from 'react';
 import { ProdutoContext } from '../../context/produtoContext';
 
@@ -23,7 +24,7 @@ function Cart() {
 
   return(
         <Container>
-            <CartTitle>Cart</CartTitle>
+            <CartTitle>Carrinho</CartTitle>
             <SectionCart>
                 <LeftSideCart>
                     {products.length === 0  ? (
@@ -47,10 +48,28 @@ function Cart() {
                 </LeftSideCart>
                 
                 <RightSideCart>
-                    <InfosBoxes>Subtotal <span>R$ 220,00 </span></InfosBoxes>
+                    <InfosBoxes
+                    >
+                        <motion.div
+                            initial={{ y: -100, opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{ duration: 0.5 }}
+                        >
+                            Subtotal 
+                        </motion.div>
+                        
+                        <span>R$ 220,00 </span>
+                    </InfosBoxes>
 
                     <InfosBoxes>
-                        Subtotal 
+
+                        <motion.div
+                            initial={{ y: -50, opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{ duration: 0.5 }}
+                        >
+                        Entrega 
+                        </motion.div>
 
                         <span>
                             <input type="radio" placeholder="asd"/><DescriptionRadio>Frete Grátis</DescriptionRadio><br />
@@ -58,7 +77,17 @@ function Cart() {
 
                     </InfosBoxes>
 
-                    <InfosBoxes>Total <span> R$ 220,00</span></InfosBoxes>
+                    <InfosBoxes>
+                        <motion.div
+                            initial={{ y: -20, opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{ duration: 0.5 }}
+                        >
+                        Total
+                        </motion.div>
+                        
+                        <span> R$ 220,00</span>
+                    </InfosBoxes>
 
                     {products.length === 0  ? (
                         <>

@@ -43,16 +43,18 @@ function Carrocel({
                     <Favourite />
                 </Description>
 
-                <Button onClick={() =>{ 
-                    sumCountter();
-                    handleInfos({
-                        oldPrice: oldPrice,
-                        newPrice: newPrice,
-                        partPrice: partPrice,
-                        description: description,
-                        img: img,
-                        counter: counter 
-                    });
+                <Button 
+                    whileHover={{ scale: 1.1 }}
+                    onClick={() =>{ 
+                        sumCountter();
+                        handleInfos({
+                            oldPrice: oldPrice,
+                            newPrice: newPrice,
+                            partPrice: partPrice,
+                            description: description,
+                            img: img,
+                            counter: counter 
+                        });
                 }}>
                     Comprar
                 </Button>

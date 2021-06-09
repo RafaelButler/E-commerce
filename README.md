@@ -8,7 +8,7 @@
 <h6 align="center"> A demo can be found here: </h6>
 
 <p align="center">
-    <a href="https://e-commerce-steel-one.vercel.app/">
+    <a href="https://e-commerce-steel-one.vercel.app/" target="_blank">
         Demo
     </a>
 

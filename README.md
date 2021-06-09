@@ -1,4 +1,4 @@
-<h1 align="center">A ecommerce page</h1>
+<h1 align="center">E-commerce page</h1>
 
 <h5 align="center">This is simple personal project using Reactjs</h5>
 
@@ -8,7 +8,7 @@
 <h6 align="center"> A demo can be found here: </h6>
 
 <p align="center">
-    <a>
+    <a href="#">
         Demo
     </a>
 

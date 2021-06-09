@@ -1,16 +1,44 @@
-# A ecommerce page
+<h1 align="center">A ecommerce page</h1>
+
+<h5 align="center">This is simple personal project using Reactjs</h5>
 
 ![Home](src/image/page.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h6 align="center"> A demo can be found here: </h6>
 
-## Available Scripts
+<p align="center">
+    <a>
+        Demo
+    </a>
 
-In the project directory, you can run:
+</p>
 
-### `yarn start`
+## Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project was developed with following technologies:
+- [ReactJs](https://reactjs.org/) 
+- [styled-components](https://styled-components.com/)
+- [react-router-dom](https://reactrouter.com/)
+- [framer-motion](https://www.framer.com/motion/)
+- [react-router-hash-link](https://github.com/rafgraph/react-router-hash-link)
+  
+## How to run
 
-The page will reload if you make edits.
+Clone this repo, and run command:
+
+`yarn install`
+
+or
+
+`npm install`
+
+
+##### You can run the command:
+
+`yarn start`
+
+or
+
+`npm start`
+
+Open **localhost:3000** to view it in the browser.

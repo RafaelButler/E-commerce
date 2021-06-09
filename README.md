@@ -4,6 +4,7 @@
 
 ![Home](src/image/page.png)
 
+
 <h6 align="center"> A demo can be found here: </h6>
 
 <p align="center">
@@ -13,15 +14,21 @@
 
 </p>
 
+---
+
 ## Technologies
 
+
 This project was developed with following technologies:
-- [ReactJs](https://reactjs.org/) 
+
+- [ReactJs](https://reactjs.org/)
 - [styled-components](https://styled-components.com/)
 - [react-router-dom](https://reactrouter.com/)
 - [framer-motion](https://www.framer.com/motion/)
 - [react-router-hash-link](https://github.com/rafgraph/react-router-hash-link)
   
+---  
+
 ## How to run
 
 Clone this repo, and run command:
@@ -32,8 +39,7 @@ or
 
 `npm install`
 
-
-##### You can run the command:
+**You can run the command:**
 
 `yarn start`
 
@@ -42,3 +48,7 @@ or
 `npm start`
 
 Open **localhost:3000** to view it in the browser.
+
+---
+
+Made by Rafael Butler

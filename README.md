@@ -1,4 +1,4 @@
-![Home](https://github.com/RafaelButler/E-commerce/src/image/page);
+![Home](./image/page);
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

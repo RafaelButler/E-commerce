@@ -17,6 +17,7 @@ export const Container = styled(Link)`
     z-index: 99;
 `;
 
+
 export const Cart = styled(BiCartAlt)`
     font-size: 20px;
 `;

@@ -9,7 +9,6 @@ function App() {
   return (
     <>     
       <ProductProvider>
-        
         <header>
           <Header />
         </header>

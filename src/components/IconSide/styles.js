@@ -14,6 +14,7 @@ export const Container = styled(Link)`
     text-decoration: none;
     top: 35%;
     width: 9rem;
+    z-index: 99;
 `;
 
 export const Cart = styled(BiCartAlt)`
